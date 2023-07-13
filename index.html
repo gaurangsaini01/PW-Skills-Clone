@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+     <body class="box-border bg-white">
+    <header class="sticky top-0 md:static bg-white">
+      <!-- navbar starts -->
+
+      <nav
+        class="flex-col items-center justify-center relative w-full lg:h-32 h-[40px]"
+      >
+        <!-- first section in navbar -->
+
+        <div class="flex justify-between items-center lg:mx-16 lg:my-4">
+          <p class="lg:hidden ml-2 text-2xl">
+            <i class="fa-solid fa-bars"></i>
+          </p>
+          <img
+            class="block lg:w-[150px] w-[120px] cursor-pointer"
+            src="./images/PWSkills-main.png"
+            alt="Logo"
+          />
+          <div class="lg:relative flex mx-12 lg:w-[80%]">
+            <input
+              type="text"
+              class="hidden w-full border-[1.5px] pt-[10px] pl-[46px] pr-[10px] pb-[10px] rounded-md border-gray-400 lg:block"
+              placeholder="What do you want to learn?"
+              autocomplete="off"
+            />
+            <img
+              class="lg:absolute absolute lg:top-3 lg:left-3 right-4 top-3"
+              src="images/search-icon.svg"
+              alt=""
+            />
+          </div>
+          <button
+            class="hidden lg:block font-medium text-white py-[8px] px-8 rounded-md bg-[#5a4bda] hover:bg-[#564cb3]"
+          >
+            Login/Register
+          </button>
+        </div>
+
+        <!-- second section in navbar -->
+
+        <div class="flex w-[90%] justify-around items-center lg:mx-16 lg:my-4">
+          <ul class="lg:flex justify-evenly w-full hidden">
+            <li
+              class="cursor-pointer font-medium hover:font-medium relative group"
+            >
+              Courses <i class="fa-solid fa-caret-down ml-1"></i>
+
+              <!-- courses section -->
+
+              <div
+                class="w-[250px] bg-white text-gray-600 rounded-lg pl-2 py-2 absolute left-0 hidden group-hover:block"
+              >
+                <ul>
+                  <li class="pt-1">
+                    Web Developement <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    Data Structures And Algorithm
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    Competitive Programming
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    Data Science <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    Finance <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    C Programming <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    Interview Preprations
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="cursor-pointer font-medium hover:font-medium">
+              PW Skills Lab
+            </li>
+            <li class="cursor-pointer font-medium hover:font-medium">
+              Job Portal
+            </li>
+            <li class="cursor-pointer font-medium hover:font-medium">
+              Experience Portal
+            </li>
+            <li class="cursor-pointer font-medium hover:font-medium">
+              Become an affiliate
+            </li>
+            <li class="cursor-pointer font-medium hover:font-medium">
+              Hall of fame
+            </li>
+            <li
+              class="cursor-pointer font-medium hover:font-medium relative group"
+            >
+              More <i class="fa-solid fa-caret-down ml-1"></i>
+
+              <!-- more section  -->
+
+              <div
+                class="w-[200px] bg-white text-gray-600 rounded-lg pl-2 py-2 absolute left-0 hidden group-hover:block"
+              >
+                <ul>
+                  <li class="pt-1">
+                    About Us <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    FAQ's <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    Contact Us <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    Job Finding <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    Community<i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    Interview <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                  <li class="pt-1">
+                    Join Us <i class="fa-solid fa-chevron-right"></i>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- navbar ends -->
+
+    <!-- Hero Section starts -->
+    <main>
+      <div>
+        <img class="hidden lg:block w-full" src="images/1st.jpg" />
+        <img class="lg:hidden w-full" src="images/1st choti.jpg" />
+      </div>
+
+      <!-- hero section ends -->
+
+      <!-- Data Section starts -->
+
+      <h1
+        class="text-[#5a4bda] mt-8 md:mt-16 font-bold text-center text-[1.2rem] sm:text-[2rem] lg:text-[3rem]"
+      >
+        “Pure Hardwork, No Shortcuts!”
+      </h1>
+      <hr
+        class="border-[2px] mt-3 rounded-xl border-yellow-500 mx-auto w-[150px]"
+      />
+
+      <div class="w-full flex flex-col lg:flex-row justify-evenly mt-8">
+        <div class="flex flex-col items-center ">
+          <img src="images/books-icon.svg" class="w-[200px]" >
+          <h2 class="text-center font-bold text-4xl">600+</h2>
+          <p class="text-gray-600 text-center font-bold text-4xl">Different Courses</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="images/credit-card-icon.svg" class="w-[200px]" >
+          <h2 class="text-center font-bold text-4xl">10,000+</h2>
+          <p class="text-gray-600 text-center font-bold text-4xl">Transactions</p>
+        </div>
+        <div class="flex flex-col  items-center">
+          <img src="images/student-icon.svg" class="w-[200px]" >
+          <h2 class="text-center font-bold text-4xl ">8,00,000+</h2>
+          <p class=" text-gray-600 text-center font-bold text-4xl">Students Enrolled</p>
+        </div>
+      </div>
+
+      <br /><br />
+    </main>
+  </body>
+
+</html>
