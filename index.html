@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Online Courses-Learn To Code</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.tailwindcss.com" ></script>
+  <script src="script.js" defer></script>
 </head>
-
-<body class="box-border bg-white">
+<body>
+  
   <header class="sticky top-0 md:static bg-white">
     <!-- navbar starts -->
 
@@ -20,9 +20,9 @@
 
       <div class="flex justify-between items-center lg:mx-16 lg:my-4">
         <p class="lg:hidden ml-2 text-2xl">
-          <i class="fa-solid fa-bars"></i>
+          <ion-icon class="cursor-pointer" onclick="onToggle(this)" name="menu"></ion-icon>  
         </p>
-        <img class="block lg:w-[150px] w-[120px] cursor-pointer" src="./images/PWSkills-main.png" alt="Logo" />
+        <img class="block lg:w-[150px] w-[120px] cursor-pointer" src="images/PWSkills-main.png" alt="Logo" />
         <div class="lg:relative flex mx-12 lg:w-[80%]">
           <input type="text"
             class="hidden w-full border-[1.5px] pt-[10px] pl-[46px] pr-[10px] pb-[10px] rounded-md border-gray-400 lg:block"
@@ -36,8 +36,8 @@
 
       <!-- second section in navbar -->
 
-      <div class="flex w-[90%] justify-around items-center lg:mx-16 lg:my-4">
-        <ul class="lg:flex justify-evenly w-full hidden">
+      <div class="nav-links bg-white lg:w-[90%] lg:static absolute lg:min-h-0 min-h-[60vh] px-5 lg:px-0 left-0 top-[-1500%] flex lg:items-center  w-full lg:mx-16 lg:my-4">
+        <ul class="lg:flex lg:flex-row flex flex-col justify-evenly lg:py-0 py-5  w-full ">
           <li class="cursor-pointer font-medium hover:font-medium relative group">
             Courses <i class="fa-solid fa-caret-down ml-1"></i>
 
